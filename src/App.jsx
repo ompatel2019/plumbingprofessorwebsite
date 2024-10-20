@@ -1,8 +1,11 @@
 import React from 'react'
+import Topbar from './components/topbar.jsx'; 
+import './font.css' 
+
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline'>App</div>
+    <Topbar/>
   )
 }
 
