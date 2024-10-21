@@ -14,11 +14,13 @@ const Navbar = () => {
   const toggleDropdown = () => setDropDown(prev => !prev);
 
   return (
-    <div className='responsivePad bg-c-5-0 flex justify-between px-4 text-white font-sans max-sm:hidden py-[32px] items-center'>
+    <div className='responsivePad bg-c-5-0 flex justify-between px-4 text-white font-sans py-[32px] items-center'>
+      
       <div>
         logo
       </div>
-      <ul className='flex space-x-4 lg:space-x-8'>
+
+      <ul className='flex space-x-4 lg:space-x-8 max-sm:hidden'>
         {navLinks.map((navLink, navLinkIndex) => (
           <li key={navLinkIndex} className='hover:text-c-3-0 transition-all p'>
             {navLinkIndex === 0 ? (
@@ -45,12 +47,15 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className='space-x-4 flex font-medium'>
+
+      <div className='space-x-4 flex font-medium m4 max-sm:font-semibold'>
         <button className='bg-c-4-0 p-2 rounded-md flex space-x-2 items-center hover:border-c-4-0 cursor-pointer hover:px-4 transition-all duration-200'>
-          <img src={phone} alt="Phone" />
-          <p className='text-c-5-0'>0407 070 106</p>
+          <img className='max-sm:w-6' src={phone} alt="Phone" />
+          <a href="tel:0407070106">
+            <p className='text-c-5-0'>0407 070 106</p>
+          </a>
         </button>
-        <button className='bg-c-3-0 p-2 rounded-md cursor-pointer hover:px-4 transition-all duration-200'>Request a Quote</button>
+        <button href="#contactForm" className='bg-c-3-0 p-2 rounded-md cursor-pointer hover:px-4 transition-all duration-200'>Request a Quote</button>
       </div>
     </div>
   );
