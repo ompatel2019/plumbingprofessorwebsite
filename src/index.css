@@ -64,7 +64,7 @@ html {
 }
 
 .responsivePad {
-    @apply 2xl:px-[240px] xl:px-[120px] lg:px-[80px] md:px-[64px] max-sm:px-[16px];
+    @apply 2xl:px-[240px] xl:px-[120px] lg:px-[80px] md:px-[64px] sm:px-[48px] max-sm:px-[16px];
 }
 
 /* Add this to your CSS file or inside a <style> tag in your HTML/JSX */
@@ -76,4 +76,20 @@ html {
 .fade-in.active {
     opacity: 1;
     }
+
+    /* Ensuring the navbar stays on top */
+.navbar {
+    position: relative; /* Ensure it is positioned for z-index to take effect */
+    z-index: 999; /* Higher z-index to ensure it is above other content */
+  }
   
+  /* Default hero wrapper to have a lower z-index */
+  .hero-wrapper {
+    position: relative; /* Ensure it is positioned for z-index to take effect */
+    z-index: 1; /* Lower z-index so it stays below the navbar */
+  }
+  
+  .topbar {
+    position: relative; /* Ensure it is positioned for z-index to take effect */
+    z-index: 1000; /* Higher z-index to ensure it is above other content */
+  }

@@ -23,9 +23,7 @@ const HeroWrapper = () => {
       <img 
         src={images[imageIndex]}
         alt="Background"
-        className={`absolute inset-0 w-full h-full object-cover fade-in ${loaded ? 'active' : ''}`}
-        onLoad={() => setLoaded(true)} 
-        style={{ transition: 'opacity 0.5s ease-in-out' }}
+        className={`absolute inset-0 w-full h-full object-cover`}
       />
     </div>
   );

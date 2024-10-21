@@ -14,13 +14,13 @@ const Navbar = () => {
   const toggleDropdown = () => setDropDown(prev => !prev);
 
   return (
-    <div className='responsivePad bg-c-5-0 flex justify-between px-4 text-white font-sans py-[32px] items-center'>
+    <div className='navbar responsivePad bg-c-5-0 flex justify-between px-4 text-white font-sans py-[32px] items-center'>
       
       <div>
         logo
       </div>
 
-      <ul className='flex space-x-4 lg:space-x-8 max-sm:hidden'>
+      <ul className='flex space-x-4 lg:space-x-8 max-md:hidden'>
         {navLinks.map((navLink, navLinkIndex) => (
           <li key={navLinkIndex} className='hover:text-c-3-0 transition-all p'>
             {navLinkIndex === 0 ? (
@@ -33,7 +33,7 @@ const Navbar = () => {
                   <div className='space-y-2'>
                     {services.map((service, serviceIndex) => (
                       <a href={service.a} key={serviceIndex}>
-                        <p className='p-2 hover:text-c-5-0 hover:bg-c-4-0 transition-all duration-300 cursor-pointer'>
+                        <p className='z-50 p-2 hover:text-c-5-0 hover:bg-c-4-0 transition-all duration-300 cursor-pointer'>
                           {service.serviceName}
                         </p>
                       </a>
@@ -52,10 +52,10 @@ const Navbar = () => {
         <button className='bg-c-4-0 p-2 rounded-md flex space-x-2 items-center hover:border-c-4-0 cursor-pointer hover:px-4 transition-all duration-200'>
           <img className='max-sm:w-6' src={phone} alt="Phone" />
           <a href="tel:0407070106">
-            <p className='text-c-5-0'>0407 070 106</p>
+            <p className='text-c-5-0 m3'>0407 070 106</p>
           </a>
         </button>
-        <button href="#contactForm" className='bg-c-3-0 p-2 rounded-md cursor-pointer hover:px-4 transition-all duration-200'>Request a Quote</button>
+        <button href="#contactForm" className='bg-c-3-0 p-2 rounded-md cursor-pointer hover:px-4 transition-all duration-200 m3'>Request a Quote</button>
       </div>
     </div>
   );

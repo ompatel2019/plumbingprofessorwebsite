@@ -28,7 +28,7 @@ const Hero = () => {
                   The Plumbing Professor
                 </h1>
                 <p className='p m3'>
-                  The Plumbing Professor is a locally run plumber with over 25 years of experience in the business. No plumbing job is too big or too small.
+                  The Plumbing Professor is a locally run plumber with over 25 years of experience in the business. <span className='max-sm:hidden'>No plumbing job is too big or too small.</span>
                 </p>
               </div>
               <img src={images[imageIndex]} alt="" />
