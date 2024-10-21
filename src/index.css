@@ -66,3 +66,14 @@ html {
 .responsivePad {
     @apply 2xl:px-[240px] xl:px-[120px] lg:px-[80px] md:px-[64px] max-sm:px-[16px];
 }
+
+/* Add this to your CSS file or inside a <style> tag in your HTML/JSX */
+.fade-in {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    }
+
+.fade-in.active {
+    opacity: 1;
+    }
+  
