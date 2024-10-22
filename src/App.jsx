@@ -3,8 +3,10 @@ import Topbar from './components/topbar.jsx';
 import Navbar from './components/navbar.jsx';
 import Hero from './components/hero.jsx';
 import Services from './components/services.jsx';
-import Results from './components/results.jsx';
+import Results from './components/Results.jsx';
 import Form from './components/Form.jsx';
+import Testimonial from './components/Testimonials.jsx';
+import Footer from './components/Footer.jsx';
 import './font.css' 
 
 
@@ -17,6 +19,8 @@ const App = () => {
       <Services/>
       <Results/>
       <Form/>
+      <Testimonial/>
+      <Footer/>
     </>
   )
 }

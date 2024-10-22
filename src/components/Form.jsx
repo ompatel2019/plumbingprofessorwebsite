@@ -105,7 +105,7 @@ const Form = () => {
           </form>
         </div>
 
-        <div className='formPad max-md:hidden reviewPad bg-c-3-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1 flex items-center'>
+        <div className='reviewPad max-md:hidden reviewPad bg-c-3-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1 flex items-center'>
           <h2 className='font-bold text-c-4-0 h5'>
             “Dino was upfront on the job and involved me in the process explaining to me what has happened and how I should go forward. The job was completed and during subsequent rain, I did not have the blockage anymore!”
           </h2>

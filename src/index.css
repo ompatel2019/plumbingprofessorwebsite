@@ -64,11 +64,15 @@ html {
 }
 
 .responsivePad {
-    @apply 2xl:px-[400px] xl:px-[200px] lg:px-[120px] md:px-[96px] sm:px-[64px] max-sm:px-[32px];
+    @apply 2xl:px-[320px] xl:px-[200px] lg:px-[120px] md:px-[96px] sm:px-[64px] max-sm:px-[16px];
 }
 
 .formPad {
-    @apply 2xl:px-[240px] xl:px-[120px] lg:px-[80px] md:px-[64px] sm:px-[48px] max-sm:px-[16px];
+    @apply 2xl:pl-[320px] xl:pl-[200px] lg:pl-[120px] md:pl-[96px] sm:px-[64px] max-sm:px-[16px];
+}
+
+.reviewPad {
+    @apply 2xl:pr-[320px] xl:pr-[120px] lg:pr-[80px] md:pr-[64px] sm:pr-[48px] max-sm:pr-[16px] pl-[48px];
 }
 
 /* Add this to your CSS file or inside a <style> tag in your HTML/JSX */
