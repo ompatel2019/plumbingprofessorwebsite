@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Services from './components/Services.jsx';
 import Results from './components/Results.jsx';
+import Form from './components/Form.jsx';
 import './font.css' 
 
 
@@ -15,6 +16,7 @@ const App = () => {
       <Hero/>
       <Services/>
       <Results/>
+      <Form/>
     </>
   )
 }
