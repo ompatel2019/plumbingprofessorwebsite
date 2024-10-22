@@ -6,7 +6,7 @@ import Services from './components/services.jsx';
 import Results from './components/results.jsx';
 import Form from './components/Form.jsx';
 import Testimonial from './components/testimonials.jsx';
-import Footer from './components/Footer.jsx';
+import Footer from './components/footer.jsx';
 import './font.css' 
 
 
