@@ -4,7 +4,7 @@ import Navbar from './components/navbar.jsx';
 import Hero from './components/hero.jsx';
 import Services from './components/services.jsx';
 import Results from './components/results.jsx';
-import Form from './components/form.jsx';
+import Form from './components/Form.jsx';
 import './font.css' 
 
 
