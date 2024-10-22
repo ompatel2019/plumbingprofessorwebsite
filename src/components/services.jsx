@@ -1,5 +1,5 @@
 import React from 'react';
-import Service from './Service'; // Assuming the child component is named Service and imported correctly
+import Service from './service.jsx'; 
 import services from '../services'; 
 
 const Services = () => {
