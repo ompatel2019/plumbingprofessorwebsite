@@ -64,6 +64,10 @@ html {
 }
 
 .responsivePad {
+    @apply 2xl:px-[400px] xl:px-[200px] lg:px-[120px] md:px-[96px] sm:px-[64px] max-sm:px-[32px];
+}
+
+.formPad {
     @apply 2xl:px-[240px] xl:px-[120px] lg:px-[80px] md:px-[64px] sm:px-[48px] max-sm:px-[16px];
 }
 

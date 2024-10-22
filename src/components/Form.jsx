@@ -67,7 +67,7 @@ const Form = () => {
   return (
     <div className=''>
       <div className='grid grid-cols-2 max-md:grid-cols-1'>
-        <div className='responsivePad bg-c-5-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1'>
+        <div className='formPad bg-c-5-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1'>
           <h2 className='h4 font-bold text-c-4-0 max-md:text-center'>Contact Us!</h2>
           <p className='p text-white max-md:text-center'>
             Have an inquiry? Let us know here so we can sort it out and get back to you as soon as possible!.
@@ -105,7 +105,7 @@ const Form = () => {
           </form>
         </div>
 
-        <div className='max-md:hidden responsivePad bg-c-3-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1 flex items-center'>
+        <div className='formPad max-md:hidden reviewPad bg-c-3-0 py-8 sm:py-14 lg:py-16 2xl:py-20 space-y-4 col-span-1 flex items-center'>
           <h2 className='font-bold text-c-4-0 h5'>
             “Dino was upfront on the job and involved me in the process explaining to me what has happened and how I should go forward. The job was completed and during subsequent rain, I did not have the blockage anymore!”
           </h2>
